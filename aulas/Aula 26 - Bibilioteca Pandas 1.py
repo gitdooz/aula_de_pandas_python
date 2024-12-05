@@ -23,7 +23,7 @@ Valores = [1,2,3,4]
 ValoresSeries = pd.Series(Valores,index=['a','b','c','d'])
 print(ValoresSeries)
 print()
-
+ 
 # Acessar o primeiro elemento de uma series
 print('Primeiro elemento: ', ValoresSeries[0])
 print('índice C...:', ValoresSeries['c'])
